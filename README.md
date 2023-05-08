@@ -10,7 +10,8 @@ capt.setCapability("platformName","Andriod");
 capt.setCapability("app",app.getAbsolutePath()):
 capt.setCapability("appPackagae","in.Fitness.andriod");
 capt.setCapability("appActivity","com.Fitness.Homeactivity");
-driver=new AndriodDriver(new URL("https://fitness").capt);
+
+driver=new AndriodDriver(new URL("https://127.0.0.1:4723/wd/hub").capt);
 driver.managar().timeouts().implicityWait(20,TimeUnit.SECONDS);
 driver.close();
 }
